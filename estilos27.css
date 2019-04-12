@@ -1,0 +1,39 @@
+body {
+	font-family: verdana;
+}
+
+th, td {
+	font-size: 10pt;
+	border-right: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+}
+
+caption {
+	font-size: 9pt;
+	font-variant: small-caps;
+}
+
+table {
+	border-left: #000000 1px solid;
+	border-top: #000000 1px solid;
+	border-spacing: 0;
+}
+
+img {
+	border: #FFFF00 2px solid;
+	border-radius: 25px;
+}
+
+h2 {
+	font-weight: normal;
+	color: #666666;
+}
+
+th {
+	background-color: #666666;
+	color: #FFFFFF;
+}
+
+td {
+	background-color: #CCCCCC;
+}

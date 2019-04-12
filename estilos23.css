@@ -1,0 +1,31 @@
+body {
+	font-family: verdana;
+}
+
+p, blockquote, ul {
+	font-size: 11pt;
+}
+
+address {
+	font-size: 10pt;
+	letter-spacing: 1px;
+	font-style: normal;
+}
+
+h3 {
+	font-style: italic;
+}
+
+ol {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+h2 {
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+ul {
+	word-spacing: 10px;
+}

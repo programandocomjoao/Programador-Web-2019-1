@@ -1,0 +1,43 @@
+@font-face {
+	src: url("fontes/A_Lolita_Scorned.ttf");
+	font-family: "sangue";
+	/* Sangue é o apelido dados a fonte acima */
+}
+
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: verdana;
+	background-image: url("imagens/twd.jpg");
+	/* background-size: 100% 100%; */
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: #FF0000;
+	font-family: sangue;
+	font-weight: normal;
+	text-align: center;
+}
+
+p {
+	font-size: 11pt;
+	text-align: justify;
+	text-indent: 12.5mm;
+	line-height: 17pt;
+}
+
+h2 {
+	color: #FF0000;
+	font-family: sangue;
+	font-weight: normal;
+}
+
+address {
+	font-size: 10pt;
+	text-align: center;
+	color: #606060;
+	font-style: normal;
+}

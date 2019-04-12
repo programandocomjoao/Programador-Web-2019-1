@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<title>Página 20</title>
+		<link rel="icon" href="imagens/kompozer.ico" />
+	</head>
+
+	<body>
+		<a id="topo"></a>
+		<h1>Formulário de Cadastro de Usuário</h1>
+
+		<form id="cadastro" method="post" action="mailto:jpvoig@gmail.com">
+			<fieldset id="usuario">
+				<legend>Identificação do Usuário</legend>
+
+				<p><label for="nome">Nome:</label>
+				<input type="text" id="nome" size="25" maxlength="30" placeholder="Nome Completo" autofocus />
+				</p>
+
+				<p><label for="senha">Senha:</label>
+				<input type="password" id="senha" size="8" maxlength="8" placeholder="8 dígitos" />
+				</p>
+
+				<p><label for="email">E-mail:</label>
+				<input type="email" id="email" size="30" maxlength="40" />
+				</p>
+
+				<p><label for="telefone">Telefone:</label>
+				<input type="text" id="telefone" size="15" maxlength="15" title="Digite o telefone no formato: (XX)XXXXX-XXXX" pattern="\([0-9]{2}\)[0-9]{4,5}-[0-9]{4}" />
+				</p>
+
+				<fieldset id="sexo">
+					<legend>Selecione o sexo:</legend>
+						<input type="radio" id="sm" value="M" name="sexo" />
+						<label for="sm">Masculino</label>
+
+						<input type="radio" id="sf" value="F" name="sexo" />
+						<label for="sf">Feminino</label>
+				</fieldset>
+
+				<p><label for="data">Data de Nascimento:</label>
+				<input type="date" id="data" />
+				</p>
+
+				<p><label for="hora">Hora do Nascimento:</label>
+				<input type="time" id="hora" />
+				</p>
+			</fieldset>
+
+			<fieldset id="endereco">
+				<legend>Endereço do Usuário:</legend>
+
+				<p><label for="logradouro">Logradouro:</label>
+				<input type="text" id="logradouro" size="15" maxlength="80" placeholder="Rua, Av, Trav, ..." />
+				</p>
+
+				<p><label for="numero">Número:</label>
+				<input type="number" id="numero" min="1" max="99999" />
+				</p>
+
+				<p><label for="estado">Estado:</label>
+				<select id="estado">
+					<optgroup label="Região Sudeste">
+						<option value="ES">Espírito Santo</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="SP">São Paulo</option>
+					</optgroup>
+					
+					<optgroup label="Região Sul">	
+						<option value="PR">Paraná</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="SC">Santa Catarina</option>
+					</optgroup>
+				</select>
+				</p>
+
+				<p><label for="cidade">Cidade:</label>
+				<input type="text" id="cidade" size="20" maxlength="40" placeholder="Sua Cidade" list="cidades" />
+				</p>
+
+				<datalist id="cidades">
+					<option value="Duque de Caxias"></option>
+					<option value="Niterói"></option>
+					<option value="Nova Iguaçu"></option>
+					<option value="Nova Friburgo"></option>
+					<option value="Rio Bonito"></option>
+					<option value="Rio Claro"></option>
+					<option value="Rio de Janeiro"></option>
+					<option value="Caxias do Sul"></option>
+					<option value="Nilópolis"></option>
+					<option value="Belford Roxo"></option>
+					<option value="Nova Iorque"></option>
+				</datalist>
+			</fieldset>
+
+			<fieldset id="msg">
+				<legend>Mensagem do Usuário:</legend>
+
+				<p><label for="urgencia">Grau de Urgência:</label>
+				Mín <input type="range" id="urgencia" min="0" max="10" step="2" /> Máx
+				</p>
+
+				<p><label for="mensagem">Mensagem:</label>
+				<textarea id="mensagem" placeholder="Digite aqui a sua mensagem" cols="45" rows="5"></textarea>
+				</p>
+
+				<p><label for="foto">Envie uma Foto:</label>
+				<input type="file" id="foto" />	
+				</p>
+
+				<fieldset id="acesso">
+					<legend>Dispositivo que vai acessar</legend>
+
+					<input type="checkbox" id="ds" name="dispositivo" value="Smartphone">
+					<label for="ds">Smartphone</label>
+
+					<input type="checkbox" id="dt" name="dispositivo" value="Tablet">
+					<label for="dt">Tablet</label>
+
+					<input type="checkbox" id="dc" name="dispositivo" value="Computador">
+					<label for="dc">Computador</label>
+				</fieldset>
+
+				<p><label for="cor">Cor do seu Perfil:</label>
+				<input type="color" id="cor" />
+				</p>
+			</fieldset>
+
+			<input type="hidden" id="dataCadastro" value="21/03/2019" />
+			<input type="submit" id="envio" value="Cadastrar Usuário" />
+			<input type="reset" id="limpar" value="Limpar Campos" />
+			<input type="button" id="fechar" value="Fechar Janela" onclick="window.close();" />
+		</form>
+
+		<hr />
+		<a href="#topo">Voltar ao topo</a>
+	</body>
+</html>

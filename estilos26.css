@@ -1,0 +1,26 @@
+body {
+	font-family: verdana;
+}
+
+td, th {
+	font-size: 10pt;
+}
+
+caption {
+	font-size: 9pt;
+	font-style: italic;
+}
+
+table {
+	border-width: 2px;
+	border-color: blue;
+	border-style: dashed;
+}
+
+th {
+	border: black 1px solid;
+}
+
+td {
+	border: brown 2px solid;
+}
