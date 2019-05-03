@@ -1,0 +1,22 @@
+body {
+	background-color: #666666;
+	font-family: verdana;
+}
+
+div#esquerda {
+	background-color: #FFFFFF;
+	width: 43%;
+	padding: 2%;
+	border: #000000 1px solid;
+	display: block;
+	float: left;
+}
+
+div#direita {
+	background-color: #FFFFFF;
+	width: 43%;
+	padding: 2%;
+	border: #000000 1px solid;
+	display: block;
+	float: right;
+}

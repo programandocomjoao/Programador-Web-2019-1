@@ -1,0 +1,87 @@
+body {
+	background-color: #DDDDDD;
+	font-family: verdana;
+}
+
+div#caixa {
+	width: 90%;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	border: #000000 1px solid;
+	box-shadow: 0px 0px 10px;
+}
+
+p {
+	font-size: 11pt;
+	text-align: justify;
+	text-indent: 12mm;
+	line-height: 16pt;
+}
+
+header#cabecalho {
+	background-color: #666666;
+	color: #EEEEEE;
+	height: 150px;
+
+	/* essas 3 linhas são para centralizar na horizontal e vertical */	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-align: center;
+	border-bottom: #000000 1px solid;
+}
+
+header#cabecalho h1 {
+	margin: 0;
+}
+
+footer#rodape {
+	background-color: #666666;
+	color: #EEEEEE;
+	font-size: 10pt;
+	text-align: center;
+	height: 75px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	clear: both;
+}
+
+address {
+	font-style: normal;
+}
+
+aside#lateral {
+	display: block;
+	float: left;
+	width: 120px;
+	padding: 1%;
+	/* min-width: 120px;
+	max-width: 120px; */
+}
+
+section#principal {
+	display: block;
+	float: right;
+	width: calc(95% - 120px);
+	border-left: #666666 1px solid;
+	padding: 1%;
+}
+
+header.titulo {
+	background-color: #DDDDDD;
+}
+
+header.titulo h2 {
+	font-size: 13pt;
+	color: #606060;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+article.artigo {
+	color: #666666;
+}
