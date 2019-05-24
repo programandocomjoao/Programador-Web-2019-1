@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Página 41</title>
+	</head>
+
+	<body>
+		<h1>Manipulação de Elementos</h1>
+
+		<form id="formulario">
+			<fieldset>
+				<legend>Dados da Pessoa</legend>
+
+				<p><label for="nome">Nome:</label>
+				<input type="text" id="nome">
+				</p>
+
+				<p><label for="sobrenome">Sobrenome:</label>
+				<input type="text" id="sobrenome">
+				</p>
+
+				<p><input type="button" value="Clicar" onclick="window.alert('Nome completo: ' + document.getElementById('nome').value + ' ' + document.getElementById('sobrenome').value);">
+			</fieldset>
+		</form>
+
+	</body>
+</html>
