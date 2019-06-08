@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Página 42</title>
+	</head>
+
+	<body>
+		<h2>Manipulação de Elementos</h2>
+
+		<hr>
+		<a href="javascript:void(0)" onmouseover="document.getElementById('bandeira').src='imagens/alemanha.png'; document.getElementById('bandeira').title='Alemanha';">Alemanha</a> |
+
+		<a href="javascript:void(0)" onmouseover="document.getElementById('bandeira').src='imagens/italia.png'; document.getElementById('bandeira').title='Itália';">Itália</a> |
+
+		<a href="javascript:void(0)" onmouseover="document.getElementById('bandeira').src='imagens/argentina.png'; document.getElementById('bandeira').title='Argentina';">Argentina</a> |
+
+		<a href="javascript:void(0)" onmouseover="document.getElementById('bandeira').src='imagens/brasil.png'; document.getElementById('bandeira').title='Brasil';">Brasil</a>
+		<hr>
+
+		<img src="imagens/brasil.png" alt="Bandeira do Brasil" title="Brasil" id="bandeira">
+
+		<hr>
+		<a href="javascript:void(0)" onclick="window.alert('Largura: ' + document.getElementById('bandeira').width);">Largura</a> |
+
+		<a href="javascript:void(0)" onclick="window.alert('Altura: ' + document.getElementById('bandeira').height);">Altura</a> |
+		<hr>
+	</body>
+</html>
